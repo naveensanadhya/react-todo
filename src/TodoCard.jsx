@@ -100,7 +100,7 @@ const TodoCard = ({ todo, todoList, refreshList, ...rest }) => {
       {showViewModal && (
         <Modal
           modalTitle="View To Do"
-          modalSize={modalSizes.SM}
+          modalSize={modalSizes.LG}
           handleClose={() => setShowViewModal(false)}
         >
           <div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Modal from "./src/Modal";
-import { modalSizes, Statuses, todoListFromDB } from "./src/Constants";
+import Modal from "./Modal";
+import { modalSizes, Statuses, todoListFromDB } from "./Constants";
 import { v4 as uuid } from "uuid";
 
 const AddTodo = ({ showModal, closeModal, ...rest }) => {

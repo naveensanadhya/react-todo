@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import TodoList from "./TodoList";
-import AddTodo from "../AddTodo";
+import AddTodo from "./AddTodo";
 import { todoListFromDB } from "./Constants";
 import Status from "./Status";
 
